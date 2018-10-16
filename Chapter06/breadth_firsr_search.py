@@ -32,5 +32,6 @@ def breadth_first_search(name):
     return False
 
 def person_is_seller(name):
+    '''判断是否是卖方'''
     return name[-1] == 'n' #名字是否以n结尾
 breadth_first_search('you')
