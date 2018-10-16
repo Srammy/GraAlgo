@@ -6,7 +6,7 @@ Created on Tue Oct 16 22:02:50 2018
 """
 #使用了三个字典（散列表）
 
-# the graph
+# the graph 图结构
 graph = {}
 graph["start"] = {}
 graph["start"]["a"] = 6
@@ -21,14 +21,14 @@ graph["b"]["fin"] = 5
 
 graph["fin"] = {}
 
-# the costs table
+# the costs table  开销（从起点算）
 infinity = float("inf")
 costs = {}
 costs["a"] = 6
 costs["b"] = 2
 costs["fin"] = infinity
 
-# the parents table
+# the parents table 父节点
 parents = {}
 parents["a"] = "start"
 parents["b"] = "start"
