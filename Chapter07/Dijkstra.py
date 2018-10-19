@@ -28,7 +28,7 @@ costs["a"] = 6
 costs["b"] = 2
 costs["fin"] = infinity
 
-# the parents table 父节点
+# the parents table 父节点（便于按图查找路径）
 parents = {}
 parents["a"] = "start"
 parents["b"] = "start"
